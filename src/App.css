@@ -1,0 +1,75 @@
+.App {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 675px;
+  height: 1300px;
+  border: 20px solid white;
+  border-radius: 80px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  color: white;
+}
+.not {
+  width: 50%;
+  height: 4%;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 25%;
+  border-radius: 0px 0 30px 30px;
+}
+.calculator {
+  margin: 50px 10px;
+}
+
+.input {
+  background-color: black;
+  /* border: 1px solid white; */
+  border: none;
+  height: 150px;
+  color: white;
+  font-size: 150px;
+  width: 99%;
+  margin: 300px 0 50px;
+  text-align: end;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  /* gap: 0px; */
+  justify-content: center;
+  margin-bottom: 400px;
+}
+.nums {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+button {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 70px;
+  border: none;
+}
+.zero {
+  width: 250px;
+  border-radius: 60px;
+}
+
+.opertor {
+  background-color: rgb(251, 125, 0);
+}
